@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".NovoCursoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inserir_novo_curso"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginVertical="10dp"
+        android:src="@drawable/noimage"
+        android:id="@+id/imagemCurso" />
+
+    <EditText
+        android:id="@+id/edit_nome"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_novo" />
+
+    <EditText
+        android:id="@+id/edit_local"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="@string/local_novo" />
+
+    <EditText
+        android:id="@+id/edit_data_inicio"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="@string/data_de_inicio_novo" />
+
+    <EditText
+        android:id="@+id/edit_data_fim"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="@string/data_de_fim_novo" />
+
+    <EditText
+        android:id="@+id/edit_preco"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:hint="@string/preco_novo" />
+
+    <EditText
+        android:id="@+id/edit_duracao"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="@string/duracao_horas_novo" />
+
+    <EditText
+        android:id="@+id/edit_edicao"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="@string/edicao_numero_novo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#C7E4EE"
+            android:text="@string/salvar_novo"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/button_salvar"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="1dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#C7E4EE"
+            android:text="@string/cancelar_novo"
+            android:layout_marginHorizontal="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_cancelar"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

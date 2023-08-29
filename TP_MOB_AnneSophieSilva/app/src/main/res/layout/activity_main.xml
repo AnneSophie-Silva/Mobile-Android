@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lista_de_cursos"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/selecione_o_que_curso_que_pretende_ver"
+        android:layout_marginBottom="20dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerViewCursos"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#C7E4EE"
+            android:text="@string/adicionar_curso"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/button_novo_curso"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_ordenar_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#C7E4EE"
+            android:text="@string/ordenar_por_nome_crescente" />
+
+        <Button
+            android:id="@+id/button_ordenar_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C7E4EE"
+            android:padding="1dp"
+            android:text="@string/ordenar_por_data_crescente"
+            android:textColor="@color/black" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/button_ordenar_nome_dec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#C7E4EE"
+            android:text="@string/ordenar_por_nome_decrescente" />
+
+
+        <Button
+            android:id="@+id/button_ordenar_data_dec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#C7E4EE"
+            android:text="@string/ordenar_por_data_decrescente2" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#C7E4EE"
+            android:text="@string/logout"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/button_logout"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

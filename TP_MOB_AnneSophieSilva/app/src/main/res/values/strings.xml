@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Cursos CESAE Digital</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="preencha_o_seu_username_e_password">Preencha o seu username e password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="entrar">Entrar</string>
+    <string name="sobre">Sobre</string>
+    <string name="selecione_uma_imagem">Selecione uma imagem</string>
+    <string name="remover_imagem">Remover imagem</string>
+    <string name="detalhes_do_curso">Detalhes do curso</string>
+    <string name="nome">Nome</string>
+    <string name="local">Local</string>
+    <string name="preco">Preço (€)</string>
+    <string name="duracao_horas">Duração (horas)</string>
+    <string name="edicao_numero">Edição (número)</string>
+    <string name="editar">Editar</string>
+    <string name="voltar">Voltar</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="apagar">Apagar</string>
+    <string name="lista_de_cursos">Lista de Cursos</string>
+    <string name="selecione_o_que_curso_que_pretende_ver">Selecione o curso que pretende ver</string>
+    <string name="adicionar_curso">Adicionar curso</string>
+    <string name="ordenar_por_nome_crescente">Ordenar por nome crescente</string>
+    <string name="ordenar_por_nome_decrescente">Ordenar por nome decrescente</string>
+    <string name="ordenar_por_data_crescente">Ordenar por data crescente</string>
+    <string name="inserir_novo_curso">Inserir novo curso</string>
+    <string name="nome_novo">Nome</string>
+    <string name="local_novo">Local</string>
+    <string name="data_de_inicio_novo">Data de início (aaaa/mm/dd)</string>
+    <string name="data_de_fim_novo">Data de fim (aaaa/mm/dd)</string>
+    <string name="preco_novo">Preço (€)</string>
+    <string name="duracao_horas_novo">Duração (horas)</string>
+    <string name="edicao_numero_novo">Edição (número)</string>
+    <string name="salvar_novo">Salvar</string>
+    <string name="cancelar_novo">Cancelar</string>
+    <string name="cursos_do_cesae_digital">Cursos do CESAE Digital</string>
+    <string name="sobre_sobre">Sobre</string>
+    <string name="aplica_o_desenvolvida_por">Aplicação desenvolvida por:</string>
+    <string name="complementos">Complementos:</string>
+    <string name="splashscreen" translatable="false">SplashScreen</string>
+    <string name="autoavaliacao">Autoavaliação:</string>
+    <string name="ordenar_por_data_decrescente2">Ordenar por data decrescente</string>
+    <string name="logout">Sair</string>
+    <string name="voltar_sobre">Voltar</string>
+    <string name="icone_na_app">Ícone na app</string>
+    <string name="data_de_inicio">Data de início (aaaa/mm/dd)</string>
+    <string name="data_de_fim">Data de fim (aaaa/mm/dd)</string>
+    <string name="som_no_botao_entrar_e_sair">Som no botão Entrar e Sair</string>
+</resources>
