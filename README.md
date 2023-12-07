@@ -1,4 +1,4 @@
-# Mobile-Android : Trabalho prático final
+# Mobile-Android : Trabalho prático
 
 Criação uma aplicação em Android que apresente os cursos do CESAE Digital.
 
